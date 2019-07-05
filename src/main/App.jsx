@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
+import Menu from '../template/menu';
+import Routes from './routes'
+import Todo from '../todo/todo';
+import About from '../about/about';
 
 
-function App() {
-  return (
-    <div className="App">
-      <div><i className="fa fa-user"></i> Tao tome entao</div>
-    </div>
-  );
-}
-
-export default App;
+export default props => (
+  <div className="container">
+    <Menu />
+    <Routes />
+  </div>
+)
