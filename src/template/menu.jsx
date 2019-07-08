@@ -4,7 +4,7 @@ import { HashRouter as Router, Link } from "react-router-dom";
 export default props => (
 	<div>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-		<a className="navbar-brand" href="#">
+		<a className="navbar-brand" href="/">
 			<i className="fa fa-calendar-check-o" />
 			Inesquecível
 			</a>
